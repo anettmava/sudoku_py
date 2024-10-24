@@ -1,11 +1,11 @@
-#sudoku_py
-Juego de Sudoku creado en #python utilizando la biblioteca pygame para la interfaz gráfica y requests para obtener tableros de Sudoku desde una API.
+# Sudoku_py
+Sudoku game created in **python** using the pygame library for the GUI and requests to get Sudoku boards from an API.
 
-Funcionalidades del Proyecto:
-Generación de Tableros: Utiliza una API para obtener tableros de Sudoku con diferentes niveles de dificultad. 
-Interfaz Gráfica: La interfaz gráfica permite interactuar con el tablero, seleccionar celdas, y rellenarlas con números.
-Validación de Movimientos: Antes de colocar un número, el sistema verifica que la jugada sea válida conforme a las reglas del Sudoku (sin repetir números en filas, columnas o cuadros).
-Instrucciones: Incluye una pantalla inicial con instrucciones para que el usuario comprenda cómo jugar, con opciones para iniciar la partida o salir del juego.
+## Project Features:
+* Board Generation: uses an API to obtain Sudoku boards with different difficulty levels. 
+* Graphical Interface: The graphical interface allows interacting with the board, selecting cells, and filling them with numbers.
+* Move Validation: Before placing a number, the system verifies that the move is valid according to Sudoku rules (no repeating numbers in rows, columns or squares).
+* Instructions: Includes an initial screen with instructions for the user to understand how to play, with options to start the game or exit the game.
 
-Requisitos:
-Para ejecutar este proyecto, necesitas instalar las bibliotecas pygame y requests
+## Requirements:
+To run this project, you need to install the pygame and requests libraries.
